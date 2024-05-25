@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} text-zinc-800 bg-zinc-100 flex flex-col`}>
+      <body className={`${inter.className} text-zinc-800 bg-zinc-200`}>
         <Container>
           <Header />
           {children}

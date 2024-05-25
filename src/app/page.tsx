@@ -7,8 +7,8 @@ const Home = () => {
         <h1 className='text-4xl md:text-5xl font-bold mb-5'>
           Welcome to my blog
         </h1>
-        <p className='max-w=[750px] mx-auto mb-5 leading-5'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consectetur commodi magni animi quidem blanditiis molestias, ea distinctio dignissimos, eveniet consequuntur. Aspernatur est recusandae, possimus ullam amet dolores dolor libero reprehenderit esse temporibus explicabo error, vero consectetur, minima voluptatibus! Odit iure aspernatur culpa quaerat, numquam labore autem non mollitia? Voluptatem deserunt reiciendis id saepe, earum sed fuga corporis consequuntur exercitationem porro, impedit laborum, nihil culpa aperiam optio. Aspernatur nemo dolorem veniam impedit voluptates. Consequuntur inventore quam dolore perspiciatis at officiis ipsam pariatur ut soluta, obcaecati cupiditate nesciunt illo aliquam libero consequatur nihil voluptas eos distinctio assumenda ipsa iste nisi voluptate?
+        <p className='mx-auto mb-5 leading-5 p-8'>
+        Hi there! I`m Ajay Upadhyay, a 21-year-old computer science and engineering student from Indore, Madhya Pradesh, India. With a passion for all things STEM, I delve into the fascinating worlds of science, technology, engineering, and mathematics. My blog is a space where I share my journey through the ever-evolving landscape of technology, offering insights, tutorials, and musings on the latest trends and innovations. Join me as I explore the frontiers of computing and engineering, and let`s learn and grow together in this exciting digital era.
         </p>
       </main>
     </Fragment>
