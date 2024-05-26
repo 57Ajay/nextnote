@@ -25,7 +25,7 @@ export default function Contact() {
             </Link>
           </div>
           <div className="text-zinc-700 font-medium">
-            <Link href="https://threads.com/57aja.y" className="hover:underline">Threads: Ajay Upadhyay
+            <Link href="https://threads.net/@57aja.y" className="hover:underline">Threads: Ajay Upadhyay
             </Link>
           </div>
         </div>
