@@ -1,5 +1,5 @@
 import CreatePost from '@/actions/action';
-import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server';
+import { getKindeServerSession, LogoutLink } from '@kinde-oss/kinde-auth-nextjs/server';
 import { redirect } from 'next/navigation';
 
 const CreatePostForm: React.FC = async () => {
@@ -31,8 +31,9 @@ const CreatePostForm: React.FC = async () => {
             required
           ></textarea>
         </div>
-        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors duration-300">Create Post</button>
+        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors duration-300 mb-10">Create Post</button>
       </form>
+      <LogoutLink className="  flex-row bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors duration-300 inline-block ml-7">Log out</LogoutLink>
     </div>
   );
 };
