@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="max-w-[1080px] mx-auto px-4 min-h-screen shadow-lg bg-zinc-100 text-center">
+    <div className="max-w-[1080px] mx-auto px-4 min-h-[87vh] shadow-lg bg-zinc-100 text-center">
       <h1 className="text-3xl font-bold mb-5">Contact Details</h1>
       <div className="flex flex-col gap-4">
         <div className="text-zinc-700 font-medium hover:underline cursor-pointer pt-2">Email: 57ajay.u@gmail.com</div>

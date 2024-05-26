@@ -10,7 +10,7 @@ const CreatePostForm: React.FC = async () => {
   return (
     <div className="max-w-[720px] mx-auto mt-8 bg-white rounded-lg shadow-md overflow-hidden  min-h-[75vh]">
       <form action={CreatePost} className="p-6">
-        <h2 className="text-lg text-center font-bold mb-4">Create a Post</h2>
+        <h2 className="text-lg text-center font-bold mb-4 mx-auto">Create a Post</h2>
         <div className="mb-4">
           <label htmlFor="title" className="block text-gray-700 font-semibold mb-2">Title</label>
           <input
