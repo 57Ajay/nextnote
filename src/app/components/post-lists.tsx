@@ -1,8 +1,8 @@
 import Link from "next/link";
-
+import prisma from "@/lib/db";
 export default async function PostLists() {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts`)
-  const posts: Post[] = await res.json()
+  const posts = await prisma.post.findMany()
+  
   return (
     <main>
         <ul>
