@@ -1,7 +1,12 @@
 import CreatePost from '@/actions/action';
+import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server';
+import { redirect } from 'next/navigation';
 
-const CreatePostForm: React.FC = () => {
-
+const CreatePostForm: React.FC = async () => {
+    const { isAuthenticated } = getKindeServerSession();
+    if (!(await isAuthenticated())){
+        redirect('/api/auth/login?post_login_redirect=/create-post')
+    }
   return (
     <div className="max-w-[720px] mx-auto mt-8 bg-white rounded-lg shadow-md overflow-hidden  min-h-[75vh]">
       <form action={CreatePost} className="p-6">
