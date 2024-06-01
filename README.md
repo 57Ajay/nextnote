@@ -74,3 +74,6 @@ Start the development server:
 
 ```bash
 npm run dev
+
+### npm run built is not working due to some reason
+### go to code-grind repo for updated version of this application
